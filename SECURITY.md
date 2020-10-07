@@ -1,6 +1,7 @@
 # Security Policy
 
 ## Supported Versions 0.1
+## Required versions of python: 3.8.3 or above with latest numpy and scipy
 
 ## Reporting a Vulnerability
 
