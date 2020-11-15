@@ -1,9 +1,8 @@
 # Global-Fourier-Continuation
 We present a method for global fourier continuation based on O.P. Bruno Paper in 2002 given https://doi.org/10.1006/jcph.2002.7023
+We use singular value decomposition(SVD) library from numpy to solve for fourier Coefficeints.
 
-#We use singular value decomposition(SVD) library from numpy to solve for fourier Coefficeints.
-
-
+# Note:
 The SVD_python_trial.py is the trail version of the code for the continuation which has been successfully corrected.
 The corrected file name: SVD_python_code.py
 
@@ -16,6 +15,6 @@ The code takes the following inputs:
 4. The interval of extension i.e. the interval on which we want to extend.<br/>
 <a href="https://www.codecogs.com/eqnedit.php?latex=\triangle\delta&space;=\frac{L}{N}=\frac{b-a}{N}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\triangle\delta&space;=\frac{L}{N}=\frac{b-a}{N}" title="\triangle\delta =\frac{L}{N}=\frac{b-a}{N}" /></a> , <a href="https://www.codecogs.com/eqnedit.php?latex=d=\triangle\delta\times\gamma" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d=\triangle\delta\times\gamma" title="d=\triangle\delta\times\gamma" /></a>
 
-#The results produced:
+The results produced:
 1. The graph of the Fourier extension
 2. The conditional number for the linear system.
