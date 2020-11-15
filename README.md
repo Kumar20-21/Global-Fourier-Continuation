@@ -1,9 +1,9 @@
 # Global-Fourier-Continuation
-We present a method for global fourier continuation based on O.P. Bruno Paper in 2002 given https://doi.org/10.1006/jcph.2002.7023
+We present a method for global fourier continuation based on O.P. Bruno Paper in 2002 given https://doi.org/10.1006/jcph.2002.7023 <br/>
 We use singular value decomposition(SVD) library from numpy to solve for fourier Coefficeints.
 
 # Note:
-The SVD_python_trial.py is the trail version of the code for the continuation which has been successfully corrected.
+The SVD_python_trial.py is the trail version of the code for the continuation which has been successfully corrected.<br/>
 The corrected file name: SVD_python_code.py
 
 # These are the following desired result:
