@@ -10,5 +10,12 @@ The corrected file name: SVD_python_code.py
 # These are the following desired result:
 The code takes the following inputs:
 1. The left and right end points of the inetrval in which the function is known analytically.
-2. The largest value of M in the truncated complex fourier series i.e. if the series is represented as <br/>
+2. The largest value of M in the truncated complex Fourier series i.e. if the series is represented as <br/>
 <a href="https://www.codecogs.com/eqnedit.php?latex=g(z)=\sum_{k=-M}^M&space;c_je^{\frac{2\pi&space;ik(z-a)}{L&plus;d}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?g(z)=\sum_{k=-M}^M&space;c_je^{\frac{2\pi&space;ik(z-a)}{L&plus;d}}" title="g(z)=\sum_{k=-M}^M c_je^{\frac{2\pi ik(z-a)}{L+d}}" /></a> .
+3. The number of points of Evalution N of the truncated complex Fourier series. It should be greater than or equal to 2 * M.
+4. The interval of extension i.e. the interval on which we want to extend.<br/>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\triangle\delta&space;=\frac{L}{N}=\frac{b-a}{N}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\triangle\delta&space;=\frac{L}{N}=\frac{b-a}{N}" title="\triangle\delta =\frac{L}{N}=\frac{b-a}{N}" /></a> , <a href="https://www.codecogs.com/eqnedit.php?latex=d=\triangle\delta\times\gamma" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d=\triangle\delta\times\gamma" title="d=\triangle\delta\times\gamma" /></a>
+
+#The results produced:
+1. The graph of the Fourier extension
+2. The conditional number for the linear system.
